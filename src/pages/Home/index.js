@@ -14,7 +14,7 @@ function Home() {
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
         videoDescription={
-          "O que é Front-end? Trabalhando na área?#HipstersPontoTube"
+          "Diretamente de seu restaurante Presidént, o chef Erick Jacquin ensina a preparar uma deliciosa sobremesa que está no cardápio: CRÈME BRÛLÉE com frutas vermelhas"
         }
       />
 
