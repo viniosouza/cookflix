@@ -1,183 +1,228 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
+      "titulo": "Francesa",
+      "link": "https://www.saboravida.com.br/gastronomia/2019/03/28/a-cozinha-francesa-e-suas-tecnicas-mundialmente-difundidas/",
+      "cor": "#002395",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Culinária francesa e suas dicas",
+        "url": "https://www.saboravida.com.br/gastronomia/2019/03/28/a-cozinha-francesa-e-suas-tecnicas-mundialmente-difundidas/"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "CRÈME BRÛLÉE COM FRUTAS VERMELHAS | ERICK JACQUIN",
+          "url": "https://youtu.be/zUQkoTVDRLU"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "CROISSANT FRANCESÃO I O AUTÊNTICO",
+          "url": "https://youtu.be/bxM14U3rZkw"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "O VERDADEIRO PETIT GÂTEAU | ERICK JACQUIN",
+          "url": "https://www.youtube.com/watch?v=WwETLi0Lhv4"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Como fazer coq au vin (frango ao vinho tinto francês)",
+          "url": "https://www.youtube.com/watch?v=labiDL5XvYs"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Cassoulet de 'Os Sabores do Palácio' | Comida de Cinema #34",
+          "url": "https://www.youtube.com/watch?v=HU_y4ra0Wfo"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "RATATOUILLE REAL OFICIAL | ERICK JACQUIN",
+          "url": "https://www.youtube.com/watch?v=UyTGSoGpRK4"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "Receita tradicional do Clafoutis de cereja (Clafoutis aux cerises)",
+          "url": "https://www.youtube.com/watch?v=yNCecG7pvqQ"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": " Receita de cooktop: Pato confitado com Guga Rocha",
+          "url": "https://www.youtube.com/watch?v=SDgvJbeb3qw"
+        },
+        {
+          "titulo": "ALIGOT: PURÊ DE BATATA COM QUEIJO",
+          "url": "https://www.youtube.com/watch?v=m0009D3N8LU"
         }        
       ]
     },
     {
-      "titulo": "Back End",
-      "cor": "#00C86F",
+      "titulo": "Italiana",
+      "cor": "#009246",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Culinária Italiana e seus segredos",
+        "url": "https://foodmagazine.com.br/noticia-food-service/gastronomia-italiana"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
+          "titulo": "COMO FAZER RISOTO com IZABEL | DICAS MASTERCHEF",
           "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Tortellini à Casa",
+          "url": "https://www.youtube.com/watch?v=7olfnKwTdfI"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "O Verdadeiro Tiramisù Italiano | Receita Sandra Dias",
+          "url": "https://www.youtube.com/watch?v=gZfLLLb4K5c"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "Ciabatta com Fermento Natural",
+          "url": "https://www.youtube.com/watch?v=mEpGtLcL8fM"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Nhoque (gnocchi) de batata",
+          "url": "https://www.youtube.com/watch?v=QMCoRnAF_oo"
+        },
+        {
+          "titulo": "CARPACCIO DE CARNE COM MOLHO DE MOSTARDA | ERICK JACQUIN",
+          "url": "https://www.youtube.com/watch?v=IuZ3ONIeop4"
+        },
+        {
+          "titulo": "Lasagna",
+          "url": "https://www.youtube.com/watch?v=BEoaoBgvtW0"
         }
       ]
     },
     {
       "titulo": "Brasileira",
-      "cor": "#9cd33b",
+      "cor": "#FEDF00",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Comida brasileira de qualidade!",
+        "url": "https://blog.menutrip.com.br/comida-tipica-brasileira/"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "FEIJOADA: como fazer feijão com carne seca, costela e lombo de porco | Rita Lobo | Cozinha Prática",
+          "url": "https://www.youtube.com/watch?v=XSVSbnn1x3M"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "FEIJÃO TROPEIRO",
+          "url": "https://www.youtube.com/watch?v=O4XNT-kH4cI"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "PÃO DE QUEIJO TRADICIONAL COM MEU SEGREDO",
+          "url": "https://www.youtube.com/watch?v=tT5P5O69Imk"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "MANDIOCA FRITA | Cozinha Básica",
+          "url": "https://www.youtube.com/watch?v=ZlcfGqSWoHQ"
+        },
+        {
+          "titulo": "COMO FAZER TAPIOCA",
+          "url": "https://www.youtube.com/watch?v=yd4vnkXX0pw"
+        },
+        {
+          "titulo": "FEIJOADA: como fazer feijão com carne seca, costela e lombo de porco | Rita Lobo | Cozinha Prática",
+          "url": "https://www.youtube.com/watch?v=XSVSbnn1x3M"
         }
       ]
     },
     {
-      "titulo": "Filmes",
-      "cor": "orange",
+      "titulo": "Espanhola",
+      "cor": "#CE1127",
+      "link_extra": {
+        "text": "Culinária espanhola e seus segredos",
+        "url": "http://www.girourbano.com.br/artigos/5-comidas-tipicas-espanhola/"
+      },
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "PAELLA DE FRUTOS DO MAR",
+          "url": "https://www.youtube.com/watch?v=0afRbAqyIQo"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "PAELLA DE FRUTOS DO MAR",
+          "url": "https://www.youtube.com/watch?v=0afRbAqyIQo"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "COCIDO MADRILEÑO | COMIDAS DA ESPANHA",
+          "url": "https://www.youtube.com/watch?v=aePzXcKh1sY"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "Gazpacho com croutons (sopa fria de tomate) - Panelinha",
+          "url": "https://www.youtube.com/watch?v=FcVqeR8V590"
+        },
+        {
+          "titulo": "Receita de Tortilla de Patata (Torta de Batata) ",
+          "url": "https://www.youtube.com/watch?v=hW37xu8XhiY"
+        }
+        ,
+        {
+          "titulo": "PISTO",
+          "url": "https://www.youtube.com/watch?v=76Ji89wflxw"
         }
       ]
     },
     {
-      "titulo": "Games",
-      "cor": "red",
+      "titulo": "Árabe",
+      "cor": "#964B00",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
+        "text": "Culinária árabe e seus segredos",
+        "url": "https://www.terra.com.br/vida-e-estilo/culinaria/guia-da-cozinha/11-receitas-para-conhecer-o-melhor-da-culinaria-arabe,3f2a990b92eaf122c32aefd62dfaef2e4uquziyu.html"
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "Pasta de grão de bico (ou hummus)",
+          "url": "https://www.youtube.com/watch?v=4yUxNXi5d5Y"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "Pasta de grão de bico (ou hummus)",
+          "url": "https://www.youtube.com/watch?v=4yUxNXi5d5Y"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "Receita de Falafel (assado)",
+          "url": "https://www.youtube.com/watch?v=SNBH83ppvbM"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-        },
-        {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "titulo": "COMO FAZER KAFTA NO PALITO | Ana Maria Brogui - YouTube",
+          "url": "https://www.youtube.com/watch?v=kvBKOOjo0bM"
         }
+        ,
+        {
+          "titulo": "Babaganuche (pasta de berinjela)",
+          "url":"https://www.youtube.com/watch?v=NhS98wGqUyA"
+        }
+        ,
+        {
+          "titulo": "COMO FAZER TABULE - RECEITAS QUE AMO - YouTube",
+          "url": "https://www.youtube.com/watch?v=dXQY9odvTSE"
+        }
+       
+        
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
-      "cor": "#6b5be2",
+      "titulo": "Peruana",
+      "cor": "##D91023",
       "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+        "text": "Culinária Peruana e suas novidades",
+        "url": "https://viajandonajanela.com/comida-peruana/"
       },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "ARROZ CHAUFA | COZINHA FOOD NETWORK - YouTube",
+          "url": "https://www.youtube.com/watch?v=3MuATB3CM6w"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "ARROZ CHAUFA | COZINHA FOOD NETWORK - YouTube",
+          "url": "https://www.youtube.com/watch?v=3MuATB3CM6w"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Tiradito Peruano: receita de carpaccio de peixe com molho de caju picante",
+          "url": "https://www.youtube.com/watch?v=WnNBq_3RmtQ"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+          "titulo": "Como Fazer Anticuchos de Coração",
+          "url": "https://www.youtube.com/watch?v=GbZ4GJKLAac"
         },
         {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "PAPA A LA HUANCAINA | RECETA PERUANA",
+          "url": "https://www.youtube.com/watch?v=9rHZ4I_HRRw"
+        },
+        {
+          "titulo": "CEVICHE, O VERDADEIRO",
+          "url": "https://www.youtube.com/watch?v=bChZIUUVWfY"
         }
       ]
     }
