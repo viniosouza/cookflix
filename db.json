@@ -1,0 +1,17 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Argentina",
+      "description": "Comida de qualidade",
+      "color": "#73ADDF"
+    },
+
+    {
+      "id": 2,
+      "name": "Belga",
+      "description": "Comida de qualidade",
+      "color": "#FAE042"
+    }
+  ]
+}
