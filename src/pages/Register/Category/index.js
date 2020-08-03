@@ -1,16 +1,16 @@
 /* eslint-disable linebreak-style */
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import PageDefault from '../../../components/PageDefault';
-import FormField from '../../../components/FormField';
-import Button from '../../../components/Button';
-import { URL } from '../../../api';
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import PageDefault from "../../../components/PageDefault";
+import FormField from "../../../components/FormField";
+import Button from "../../../components/Button";
+import { URL } from "../../../api";
 
 function CategoryRegistration() {
   const initialValues = {
-    name: '',
-    description: '',
-    color: '#000000',
+    name: "",
+    description: "",
+    color: "#000000",
   };
 
   const [categories, setCategories] = useState([]);
@@ -25,15 +25,21 @@ function CategoryRegistration() {
   };
 
   function handleChange(event) {
-    setValue(event.target.getAttribute('name'), event.target.value);
+    setValue(event.target.getAttribute("name"), event.target.value);
   }
 
   useEffect(() => {
-    const URL_CATEGORIES = `${URL}/categories`;
-    fetch(URL_CATEGORIES).then(async (response) => {
-      const data = await response.json();
-      setCategories([...data]);
-    });
+    if (window.location.href.includes("localhost")) {
+      const URL = "http://localhost:8080/categorias";
+      fetch(URL).then(async (respostaDoServer) => {
+        if (respostaDoServer.ok) {
+          const resposta = await respostaDoServer.json();
+          setCategorias(resposta);
+          return;
+        }
+        throw new Error("Não foi possível pegar os dados");
+      });
+    }
   }, []);
 
   return (
