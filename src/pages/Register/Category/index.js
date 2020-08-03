@@ -29,15 +29,15 @@ function CategoryRegistration() {
   }
 
   useEffect(() => {
-    if (window.location.href.includes("localhost")) {
-      const URL = "http://localhost:8080/categorias";
-      fetch(URL).then(async (respostaDoServer) => {
-        if (respostaDoServer.ok) {
-          const resposta = await respostaDoServer.json();
-          setCategorias(resposta);
+    if (window.location.href.includes('localhost')) {
+      const URL_CATEGORIES = `${URL}\categories`;
+      fetch(URL_CATEGORIES).then(async (response) => {
+        if (response.ok) {
+          const data = await response.json();
+          setCategories(data);
           return;
         }
-        throw new Error("Não foi possível pegar os dados");
+        throw new Error('Não foi possível pegar os dados');
       });
     }
   }, []);
