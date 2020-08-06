@@ -2,16 +2,307 @@
   "categories": [
     {
       "id": 1,
-      "name": "Argentina",
-      "description": "Comida de qualidade",
-      "color": "#73ADDF"
+      "title": "Francesa",
+      "link": "https://www.saboravida.com.br/gastronomia/2019/03/28/a-cozinha-francesa-e-suas-tecnicas-mundialmente-difundidas/",
+      "color": "#002395",
+      "extra_link": {
+        "text": "Culinária francesa e suas dicas",
+        "url": "https://www.saboravida.com.br/gastronomia/2019/03/28/a-cozinha-francesa-e-suas-tecnicas-mundialmente-difundidas/"
+      }
     },
-
     {
       "id": 2,
-      "name": "Belga",
-      "description": "Comida de qualidade",
-      "color": "#FAE042"
+      "title": "Italiana",
+      "color": "#009246",
+      "extra_link": {
+        "text": "Culinária Italiana e seus segredos",
+        "url": "https://foodmagazine.com.br/noticia-food-service/gastronomia-italiana"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Brasileira",
+      "color": "#FEDF00",
+      "extra_link": {
+        "text": "Comida brasileira de qualidade!",
+        "url": "https://blog.menutrip.com.br/comida-tipica-brasileira/"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Espanhola",
+      "color": "#CE1127",
+      "extra_link": {
+        "text": "Culinária espanhola e seus segredos",
+        "url": "http://www.girourbano.com.br/artigos/5-comidas-tipicas-espanhola/"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Árabe",
+      "color": "#964B00",
+      "extra_link": {
+        "text": "Culinária árabe e seus segredos",
+        "url": "https://www.terra.com.br/vida-e-estilo/culinaria/guia-da-cozinha/11-receitas-para-conhecer-o-melhor-da-culinaria-arabe,3f2a990b92eaf122c32aefd62dfaef2e4uquziyu.html"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Peruana",
+      "color": "##D91023",
+      "extra_link": {
+        "text": "Culinária Peruana e suas novidades",
+        "url": "https://viajandonajanela.com/comida-peruana/"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "name": "CRÈME BRÛLÉE COM FRUTAS VERMELHAS | ERICK JACQUIN",
+      "url": "https://youtu.be/zUQkoTVDRLU",
+      "description": "Diretamente de seu restaurante Presidént, o chef Erick Jacquin ensina a preparar uma deliciosa sobremesa que está no cardápio: CRÈME BRÛLÉE com frutas vermelhas"
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "name": "CROISSANT FRANCESÃO I O AUTÊNTICO",
+      "url": "https://youtu.be/bxM14U3rZkw"
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "name": "O VERDADEIRO PETIT GÂTEAU | ERICK JACQUIN",
+      "url": "https://www.youtube.com/watch?v=WwETLi0Lhv4"
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "name": "Como fazer coq au vin (frango ao vinho tinto francês)",
+      "url": "https://www.youtube.com/watch?v=labiDL5XvYs"
+    },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "name": "Cassoulet de 'Os Sabores do Palácio' | Comida de Cinema #34",
+      "url": "https://www.youtube.com/watch?v=HU_y4ra0Wfo"
+    },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "name": "RATATOUILLE REAL OFICIAL | ERICK JACQUIN",
+      "url": "https://www.youtube.com/watch?v=UyTGSoGpRK4"
+    },
+    {
+      "id": 6,
+      "categoryId": 1,
+      "name": "Receita tradicional do Clafoutis de cereja (Clafoutis aux cerises)",
+      "url": "https://www.youtube.com/watch?v=yNCecG7pvqQ"
+    },
+    {
+      "id": 7,
+      "categoryId": 1,
+      "name": " Receita de cooktop: Pato confitado com Guga Rocha",
+      "url": "https://www.youtube.com/watch?v=SDgvJbeb3qw"
+    },
+    {
+      "id": 8,
+      "categoryId": 1,
+      "name": "ALIGOT: PURÊ DE BATATA COM QUEIJO",
+      "url": "https://www.youtube.com/watch?v=m0009D3N8LU"
+    },
+    {
+      "id": 9,
+      "categoryId": 2,
+      "name": "COMO FAZER RISOTO com IZABEL | DICAS MASTERCHEF",
+      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+    },
+    {
+      "id": 10,
+      "categoryId": 2,
+      "name": "Tortellini à Casa",
+      "url": "https://www.youtube.com/watch?v=7olfnKwTdfI"
+    },
+    {
+      "id": 11,
+      "categoryId": 2,
+      "name": "O Verdadeiro Tiramisù Italiano | Receita Sandra Dias",
+      "url": "https://www.youtube.com/watch?v=gZfLLLb4K5c"
+    },
+    {
+      "id": 12,
+      "categoryId": 2,
+      "name": "Ciabatta com Fermento Natural",
+      "url": "https://www.youtube.com/watch?v=mEpGtLcL8fM"
+    },
+    {
+      "id": 13,
+      "categoryId": 2,
+      "name": "Nhoque (gnocchi) de batata",
+      "url": "https://www.youtube.com/watch?v=QMcolornAF_oo"
+    },
+    {
+      "id": 14,
+      "categoryId": 2,
+      "name": "CARPACCIO DE CARNE COM MOLHO DE MOSTARDA | ERICK JACQUIN",
+      "url": "https://www.youtube.com/watch?v=IuZ3ONIeop4"
+    },
+    {
+      "id": 15,
+      "categoryId": 2,
+      "name": "Lasagna",
+      "url": "https://www.youtube.com/watch?v=BEoaoBgvtW0"
+    },
+    {
+      "id": 16,
+      "categoryId": 3,
+      "name": "FEIJOADA: como fazer feijão com carne seca, costela e lombo de porco | Rita Lobo | Cozinha Prática",
+      "url": "https://www.youtube.com/watch?v=XSVSbnn1x3M"
+    },
+    {
+      "id": 17,
+      "categoryId": 3,
+      "name": "FEIJÃO TROPEIRO",
+      "url": "https://www.youtube.com/watch?v=O4XNT-kH4cI"
+    },
+    {
+      "id": 18,
+      "categoryId": 3,
+      "name": "PÃO DE QUEIJO TRADICIONAL COM MEU SEGREDO",
+      "url": "https://www.youtube.com/watch?v=tT5P5O69Imk"
+    },
+    {
+      "id": 19,
+      "categoryId": 3,
+      "name": "MANDIOCA FRITA | Cozinha Básica",
+      "url": "https://www.youtube.com/watch?v=ZlcfGqSWoHQ"
+    },
+    {
+      "id": 20,
+      "categoryId": 3,
+      "name": "COMO FAZER TAPIOCA",
+      "url": "https://www.youtube.com/watch?v=yd4vnkXX0pw"
+    },
+    {
+      "id": 21,
+      "categoryId": 3,
+      "name": "FEIJOADA: como fazer feijão com carne seca, costela e lombo de porco | Rita Lobo | Cozinha Prática",
+      "url": "https://www.youtube.com/watch?v=XSVSbnn1x3M"
+    },
+    {
+      "id": 22,
+      "categoryId": 4,
+      "name": "PAELLA DE FRUTOS DO MAR",
+      "url": "https://www.youtube.com/watch?v=0afRbAqyIQo"
+    },
+    {
+      "id": 23,
+      "categoryId": 4,
+      "name": "PAELLA DE FRUTOS DO MAR",
+      "url": "https://www.youtube.com/watch?v=0afRbAqyIQo"
+    },
+    {
+      "id": 24,
+      "categoryId": 4,
+      "name": "COCIDO MADRILEÑO | COMIDAS DA ESPANHA",
+      "url": "https://www.youtube.com/watch?v=aePzXcKh1sY"
+    },
+    {
+      "id": 25,
+      "categoryId": 4,
+      "name": "Gazpacho com croutons (sopa fria de tomate) - Panelinha",
+      "url": "https://www.youtube.com/watch?v=FcVqeR8V590"
+    },
+    {
+      "id": 26,
+      "categoryId": 4,
+      "name": "Receita de Tortilla de Patata (Torta de Batata) ",
+      "url": "https://www.youtube.com/watch?v=hW37xu8XhiY"
+    },
+    {
+      "id": 27,
+      "categoryId": 4,
+      "name": "PISTO",
+      "url": "https://www.youtube.com/watch?v=76Ji89wflxw"
+    },
+    {
+      "id": 28,
+      "categoryId": 5,
+      "name": "Pasta de grão de bico (ou hummus)",
+      "url": "https://www.youtube.com/watch?v=4yUxNXi5d5Y"
+    },
+    {
+      "id": 29,
+      "categoryId": 5,
+      "name": "Pasta de grão de bico (ou hummus)",
+      "url": "https://www.youtube.com/watch?v=4yUxNXi5d5Y"
+    },
+    {
+      "id": 30,
+      "categoryId": 5,
+      "name": "Receita de Falafel (assado)",
+      "url": "https://www.youtube.com/watch?v=SNBH83ppvbM"
+    },
+    {
+      "id": 31,
+      "categoryId": 5,
+      "name": "COMO FAZER KAFTA NO PALITO | Ana Maria Brogui - YouTube",
+      "url": "https://www.youtube.com/watch?v=kvBKOOjo0bM"
+    },
+    {
+      "id": 32,
+      "categoryId": 5,
+      "name": "Babaganuche (pasta de berinjela)",
+      "url": "https://www.youtube.com/watch?v=NhS98wGqUyA"
+    },
+    {
+      "id": 33,
+      "categoryId": 5,
+      "name": "COMO FAZER TABULE - RECEITAS QUE AMO - YouTube",
+      "url": "https://www.youtube.com/watch?v=dXQY9odvTSE"
+    },
+    {
+      "id": 34,
+      "categoryId": 6,
+      "name": "ARROZ CHAUFA | COZINHA FOOD NETWORK - YouTube",
+      "url": "https://www.youtube.com/watch?v=3MuATB3CM6w"
+    },
+    {
+      "id": 35,
+      "categoryId": 6,
+      "name": "ARROZ CHAUFA | COZINHA FOOD NETWORK - YouTube",
+      "url": "https://www.youtube.com/watch?v=3MuATB3CM6w"
+    },
+    {
+      "id": 36,
+      "categoryId": 6,
+      "name": "Tiradito Peruano: receita de carpaccio de peixe com molho de caju picante",
+      "url": "https://www.youtube.com/watch?v=WnNBq_3RmtQ"
+    },
+    {
+      "id": 37,
+      "categoryId": 6,
+      "name": "Como Fazer Anticuchos de coloração",
+      "url": "https://www.youtube.com/watch?v=GbZ4GJKLAac"
+    },
+    {
+      "id": 38,
+      "categoryId": 6,
+      "name": "PAPA A LA HUANCAINA | RECETA PERUANA",
+      "url": "https://www.youtube.com/watch?v=9rHZ4I_HRRw"
+    },
+    {
+      "id": 39,
+      "categoryId": 6,
+      "name": "CEVICHE, O VERDADEIRO",
+      "url": "https://www.youtube.com/watch?v=bChZIUUVWfY"
+    },
+    {
+      "name": "Comidas árabe",
+      "url": "https://www.youtube.com/watch?v=oNsY_3JSN3Y",
+      "categoryId": 5,
+      "id": 40
     }
   ]
 }

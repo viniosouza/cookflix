@@ -3,11 +3,11 @@ import Menu from "../../components/Menu";
 import Footer from "../../components/Footer";
 import Main from "./styles";
 
-function PageDefault({ children }) {
+function PageDefault({ children, paddingAll }) {
   return (
     <>
       <Menu />
-      <Main>{children}</Main>
+      <Main paddingAll={paddingAll}>{children}</Main>
       <Footer />
     </>
   );

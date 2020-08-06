@@ -1,45 +1,28 @@
 /* eslint-disable linebreak-style */
-import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import PageDefault from "../../../components/PageDefault";
-import FormField from "../../../components/FormField";
-import Button from "../../../components/Button";
-import { URL } from "../../../api";
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import PageDefault from '../../../components/PageDefault';
+import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
+import { hasCategories } from './constants';
+import categoriesActions from '../../../api/actions/CategoriesActions';
+import Loading from '../../../components/Loading';
 
 function CategoryRegistration() {
   const initialValues = {
-    name: "",
-    description: "",
-    color: "#000000",
+    title: '',
+    description: '',
+    color: '#000000',
   };
 
+  const { handleChange, values, clearForm } = useForm(initialValues);
   const [categories, setCategories] = useState([]);
-  const [values, setValues] = useState(initialValues);
-
-  // Função que vai setar o value
-  const setValue = (index, value) => {
-    setValues({
-      ...values,
-      [index]: value,
-    });
-  };
-
-  function handleChange(event) {
-    setValue(event.target.getAttribute("name"), event.target.value);
-  }
 
   useEffect(() => {
-    if (window.location.href.includes('localhost')) {
-      const URL_CATEGORIES = `${URL}\categories`;
-      fetch(URL_CATEGORIES).then(async (response) => {
-        if (response.ok) {
-          const data = await response.json();
-          setCategories(data);
-          return;
-        }
-        throw new Error('Não foi possível pegar os dados');
-      });
-    }
+    categoriesActions.getAll().then((categoryData) => {
+      setCategories(categoryData);
+    });
   }, []);
 
   return (
@@ -47,20 +30,19 @@ function CategoryRegistration() {
       <PageDefault>
         <h1>
           Cadastro de categorias
-          {values.name}
         </h1>
         <form
           onSubmit={(event) => {
             event.preventDefault();
             setCategories([...categories, values]);
-            setValues(initialValues);
+            clearForm();
           }}
         >
           <FormField
             label="Nome da Categoria"
             type="text"
-            name="name"
-            value={values.name}
+            name="title"
+            value={values.title}
             onChange={handleChange}
           />
 
@@ -79,15 +61,14 @@ function CategoryRegistration() {
             value={values.color}
             onChange={handleChange}
           />
+          <Button>Cadastrar</Button>
         </form>
-        <Button>Cadastrar</Button>
-
+        {Boolean(hasCategories(categories)) && <Loading />}
         <ul>
-          {categories.map((category, index) => (
-            <li key={`${category}${index}`}>{category.name}</li>
+          {categories.map((category) => (
+            <li key={`${category.title}`}>{category.title}</li>
           ))}
         </ul>
-
         <Link to="/">Ir para home</Link>
       </PageDefault>
     </>
